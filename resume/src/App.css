@@ -1,67 +1,100 @@
-body, html {
-  margin: 0;
-  height: auto;
+body {
   width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ccc;
+ 
 }
 
-.App {
-  margin: auto;
-  margin-top:110px;
-  margin-bottom:40px;
-  width: 80%;
-  height: 700px;
-  background-color: red;
-  /* border-top:1px solid black;
-  border-bottom:1px solid black;
-  border-left:1px solid black;
-  border-right:1px solid black;
-  border-radius:4rem 3rem 4rem 3rem; */
+.page {
+  unicode-bidi:bidi-override;
+  direction:ltr;
+  -webkit-transform:rotateY(180deg);
+  -moz-transform:rotateY(180deg);
+  -o-transform:rotateY(180deg);
+  -ms-transform:rotateY(180deg);
+ display: flex;
+ padding-left: 20px;
 }
 
-.line {
-    background-color:black;
-    transform: rotate(90deg);
-    width:600px;
-    margin-top:840px;
-    
+.resume {
+  color:whitesmoke;
+  display:flex;
+  justify-content:center;
+  padding-top: 80px;
 }
 
-.right{
-  float:right;
-  width:10%;
-  height:120%;
-  border-radius:100%;
-  margin-top:-5%;
-  margin-right:-4%;
-  background:white;
+.book {
+  transform-style: preserve-3d;
+  position: relative;
+  height: 600px;
+  cursor: pointer;
+  backface-visibility: visible;
+  width: 100%;
+  margin-top:80px;
 }
-.left{
-  float:left;
-  width:10%;
-  height:120%;
-  border-radius:100%;
-  margin-top:-5%;
-  margin-left:-4%;
-  background:white;
+
+.front, .back,  .page5, .page6 {
+transform-style: preserve-3d;
+position: relative;
+height: 600px;
+cursor: pointer;
+backface-visibility: visible;
+}
+
+.front, .back, .page5, .page6 {
+transform-style: preserve-3d;
+position: absolute;
+width: 800px;
+height: 100%;
+top: 0; left: 0;
+transform-origin: left center;
+transition: transform .5s ease-in-out, box-shadow .35s ease-in-out;
+}
+
+.front, .back {
+background: navy;
+}
+
+.front, .page1, .page3, .page5 {
+border-bottom-right-radius: .5em;
+border-top-right-radius: .5em;
+}
+
+.back, .page2, .page4, .page6 {
+border-bottom-right-radius: .5em;
+border-top-right-radius: .5em;
 }
 
 
-.top{
-  float:right;
-  width:10%;
-  height:120%;
-  border-radius:100%;
-  margin-top:-5%;
-  margin-right:-4%;
-  background:white;
-}
-.bottom{
-  float:left;
-  width:10%;
-  height:120%;
-  border-radius:100%;
-  margin-top:-5%;
-  margin-left:-4%;
-  background:white;
+.page5 {
+background: white;
+width:790;
 }
 
+.page6 {
+background: #fdfdfd;
+width:790;
+}
+
+.book:hover .front {
+transform: rotateY(-160deg) scale(1.1);
+box-shadow: 0 1em 3em 0 rgba(0, 0, 0, .2);
+}
+
+
+.book:hover .page5 {
+transform: rotateY(-130deg) scale(1.1);
+box-shadow: 0 1em 3em 0 rgba(0, 0, 0, .2);
+}
+
+.book:hover .page6 {
+transform: rotateY(-50deg) scale(1.1);
+box-shadow: 0 1em 3em 0 rgba(0, 0, 0, .2);
+}
+
+.book:hover .back {
+transform: rotateY(-20deg) scale(1.1);
+}
