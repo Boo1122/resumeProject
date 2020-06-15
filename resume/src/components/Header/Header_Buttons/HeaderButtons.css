@@ -1,0 +1,31 @@
+.header-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 0px 10px;
+    height: 30px;
+    width: 100px;
+    border: 1px solid transparent;
+    opacity: 1;
+    cursor: default;
+    overflow: hidden;
+}
+
+.header-buttons:hover {
+  border-bottom: 2px solid whitesmoke;
+}
+
+.header-buttons.selected {
+    opacity: 0.5;
+  
+  }
+
+  .header-buttons p {
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    justify-content: space-evenly;
+    
+  
+  }
