@@ -3,9 +3,8 @@
     display: flex;
     justify-content: flex-end;
     width: 100%;
-    border-bottom: 1px solid darkslategray;
     height:60px;
-    background-color: red;
+    background-color: #ccc;
     top:0;
     position:fixed;
     align-items:center;

@@ -13,7 +13,7 @@
 }
 
 .header-buttons:hover {
-  border-bottom: 2px solid whitesmoke;
+  border-bottom: 1px groove whitesmoke;
 }
 
 .header-buttons.selected {

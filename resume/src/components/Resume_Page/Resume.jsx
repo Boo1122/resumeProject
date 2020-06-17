@@ -81,7 +81,7 @@ export function Resume() {
 
 
             <section className='part2'>
-                <h2>My soft skills are the following:</h2>
+                <h4>My soft skills are the following:</h4>
                 <br/>
 
                 <div>
@@ -105,36 +105,41 @@ export function Resume() {
                 <br/>
                 <div className='hard-skills'>
                     <ul className='hard'>
-                        <li>JavaScript</li>
+                        <li>JavaScript<hr className='javascript-line'/> 88% </li>
                         <br/>
-                        <li>ReactJS</li>
+                        <li>ReactJS <hr className='react-line'/> 86%</li>
                         <br/>
-                        <li>NodeJs</li>
+                        <li>CSS<hr className='css-line'/> 83%</li>
                         <br/>
-                        <li>CSS</li>
+                        <li>HTML <hr className='html-line'/> 88%</li>
                         <br/>
-                        <li>HTML</li>
+                        <li>OOP <hr className='oop-line'/> 81%</li>
                         <br/>
-                        <li>OOP</li>
+                        <li>Flexbox <hr className='flexbox-line'/> 84%</li>
                         <br/>
-                        <li>Flexbox</li>
-                        <br/>
-                        <li>GitHub</li>
+                        <li>GitHub <hr className='github-line'/> 90%</li>
                     </ul>
                 </div>
                 <br/>
-                    <h2> Languages</h2>
-                    <br/>
-                <div>
-                    <ul className='languages'>
-                        <li>Romanian</li>
-                        <li>English</li>
-                        <li>Spanish</li>
-                    </ul>
+                    <h4> Languages</h4>
+                    <div> 
+                        <ul className='level'>
+                            <li>BEGINNER</li>
+                            <li>MEDIUM</li>
+                            <li>ADVANCED</li>
+                            <li>NATIVE</li>
+                        </ul>
+                    </div>
+                <div className='languages'>
+                    <div className='wrapper'>
+                        <div>Romanian <p className='bounce1'></p></div>
+                        <div>English <p className='bounce2'> </p> </div>
+                        <div>Spanish <p className='bounce3'></p> </div>
+                    </div>
                 </div>
                 <br/>
 
-                    <h2>Hobbies</h2>
+                    <h4>Hobbies</h4>
                 <div>
                     <ul className='hobbies'>
                         <li>Table tennis</li>
@@ -145,12 +150,11 @@ export function Resume() {
                     </ul>
                 </div>
 
-                    <h2 className='education'>Education</h2>
+                    <h4 className='education'>Education</h4>
                     <div>
                         <br/>
                         <p>Graduated without the Bachelor's Degree</p>
                          <p>From: 01.10.2012 - Until: 25.06.2015 </p>
-                        <br/>
                         <p>BABEȘ-BOLYAI UNIVERSITY, Faculty of Letters, Cluj-Napoca </p>
                     </div>
 
