@@ -1,15 +1,21 @@
 body {
-    background-image: url('/parchment.jpg');
-}
+    /* background-image: url('/parchment.jpg');
+     */
+    background-color: #8EE4AF;
+    }
 
 .about {
-    margin-top: 100px;
+    display:flex;
+    justify-content:center;
+    margin-top: 200px;
     border: 1px solid transparent;
     text-align: center;
-    background-color:#708aa1;
-    height: 50vh;
-    width: 50%;
+    height: auto;
+    max-width: 60%;
     border-radius:20px;  
+    flex-wrap: wrap;
+    background-image: url('/parchment.jpg');
+    font-weight: 500;
     
 }
 
@@ -31,9 +37,10 @@ body {
     position: relative;
     line-height: 1.3;
     animation: head;
-    animation-duration: 6s;
+    animation-duration: 5s;
     animation-fill-mode: forwards;
 }
+
 
 @keyframes head{
     0% {top: -150px}
@@ -45,7 +52,7 @@ body {
     width:100%;
     display: flex;
     overflow:hidden;
-    margin-top:100px;
+    margin-top:30px;
 }
 
 .section div {
@@ -53,7 +60,7 @@ body {
     width: 80%;
     overflow: hidden;
     text-align: center;
-    /* background-color: red; */
+    margin-left: 140px;
 
 }
 
@@ -61,7 +68,6 @@ body {
     position: relative;
     width: 80%;
     overflow: hidden;
-    /* background-color: red; */
 
 }
 
@@ -69,11 +75,23 @@ body {
     white-space: nowrap;
     line-height: 8vh;
     animation:animate 8s linear infinite;
-    margin-left: 40px;
 
 }
 
 @keyframes animate {
     0% {transform:translateX(0)}
     100% {transform:translateX(-100%)}
+}
+
+.content {
+    position: relative;
+    animation: content;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    
+}
+
+@keyframes content {
+    0% {left: -1000px}
+    100% {left: 0}
 }

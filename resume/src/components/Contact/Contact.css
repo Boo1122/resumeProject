@@ -1,6 +1,7 @@
 body, html {
   width: 100%;
   margin: 0;
+  padding: 0;
   min-height:100vh;
    
   }
@@ -12,20 +13,17 @@ body, html {
 
 .book {
   border: 3px outset black;
-  /* border-style: outset; */
   background-color: hsla(56, 88%, 70%, 0.95);
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  min-height:100vh; 
+  height:auto; 
   width: 90%;
   margin-top:100px;
   margin-bottom: 30px;
  
 }
-
-
 
 .part1 {
   border: 1px solid black;
@@ -33,16 +31,18 @@ body, html {
   margin-top: 30px;
   margin-bottom: 30px;
   background-color:rgba(243, 182, 14, 0.76);
+  overflow: hidden;
+  flex-wrap: wrap;
  
 }
 
 .part2 {
   border: 1px solid black;
   width: 45%;
-  display: flex;
-  justify-content:space-around;
-  flex-direction: column;
-  flex-wrap:wrap;
+  /* display: flex; */
+  /* justify-content:space-around; */
+  /* flex-direction: column; */
+  /* flex-wrap:wrap; */
   background-color:rgba(243, 182, 14, 0.76);
   padding: 20px 20px;
   line-height: 30px;
@@ -127,13 +127,13 @@ ul li span {
   width: 150px;
   height: 30px;
   transition-property: transform, border-radius;
-  transition-duration: 1s;  
+  transition-duration: 2s;  
   
   
 }
 
 ul li span:hover {
-  transform: rotateY(160deg);
+  transform: rotateY(360deg);
   border-radius:10%;
 }
 
@@ -144,13 +144,16 @@ ul li span:hover {
 
   
 }
+.hard-skills {
+  overflow: hidden;
+}
 
 .languages {
   list-style-type: none;
   display: block;
   margin-top: 20px;
   line-height: 2.0;
-  /* padding:0; */
+  flex-wrap:wrap; 
 }
  
 .hobbies {
@@ -170,9 +173,12 @@ ul li span:hover {
   justify-content: space-evenly;
   list-style-type: none;
   text-align: center;
+  overflow: hidden;
+  flex-wrap: wrap;
 }
 
 .wrapper {
+  overflow:hidden;
 }
 
 .bounce1 {
@@ -195,7 +201,7 @@ ul li span:hover {
   background-color: red;
   padding: 5px;
   color: white;
-  -webkit-animation: jump .7s infinite;
+  -webkit-animation: jump .7s infinite ;
 }
 
 .bounce3 {
@@ -206,13 +212,13 @@ ul li span:hover {
   padding: 5px;
   color: white;
   background-color: red;
-  -webkit-animation: jump .5s infinite;
+  -webkit-animation: jump .5s infinite ;
 }
 
 
 @keyframes jump {
   0% {transform: translateY(0px)}
-  50% {transform: translateY(-40px)}
+  50% {transform: translateY(-35px)}
   100% {transform: translateY(0px)}
 }
 
@@ -224,7 +230,9 @@ ul li span:hover {
   margin-left:5px;
   margin-bottom: 5px;
   background-color:blue;
-  animation: line 3s linear forwards infinite;
+  animation: line 3s linear forwards ;
+  animation-delay: 10s;
+  animation-iteration-count: 2;
 }
 
 
@@ -234,8 +242,9 @@ ul li span:hover {
   width:100px;
   margin-bottom: 5px;
   background-color:blue;
-  animation: line 3s linear forwards infinite;
-  animation-delay: 4s;
+  animation: line 3s linear forwards ;
+  animation-delay: 24s;
+  animation-iteration-count: 2;
 }
 
 .css-line {
@@ -245,19 +254,21 @@ ul li span:hover {
   margin-left:20px;
   margin-bottom: 5px;
   background-color:red;
-  animation: line 3s linear forwards infinite;
-  animation-delay: 8s;
+  animation: line 3s linear forwards ;
+  animation-delay: 38s;
+  animation-iteration-count: 2;
 }
 
 .html-line {
   display:inline-flex;
   width:220px;
   height:3px;
-  margin-left:30px;
+  margin-left:32px;
   margin-bottom: 5px;
   background-color:greenyellow;
-  animation: line 3s linear forwards infinite;
-  animation-delay: 12s;
+  animation: line 3s linear forwards ;
+  animation-delay: 42s;
+  animation-iteration-count: 2;
 }
 
 .oop-line {
@@ -266,8 +277,9 @@ ul li span:hover {
   height:3px;
   margin-bottom: 5px;
   background-color:greenyellow;
-  animation: line 3s linear forwards infinite;
-  animation-delay: 16s;
+  animation: line 3s linear forwards ;
+  animation-delay: 46s;
+  animation-iteration-count: 2;
 }
 
 .flexbox-line {
@@ -276,8 +288,9 @@ ul li span:hover {
   height:3px;
   margin-bottom: 5px;
   background-color:whitesmoke;
-  animation: line 3s linear forwards infinite;
-   animation-delay: 20s;
+  animation: line 3s linear forwards ;
+  animation-delay: 50s;
+  animation-iteration-count: 2;
 }
 
 .github-line {

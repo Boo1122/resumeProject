@@ -14,12 +14,10 @@ function isSelected(url, componentName) {
    
         return (
             <div className='header'>
-                
-                       <h4 id='junior'> Gafenco Silviu Bogdan | Junior Web Developer |</h4> 
                    
                 <HeaderButtons
-                    text='Resume' 
-                    selected={isSelected(pathname, 'resume')}
+                    text='Home' 
+                    selected={isSelected(pathname, 'home')}
                     path='/'
                 />  
                 <HeaderButtons
@@ -29,9 +27,15 @@ function isSelected(url, componentName) {
                 />    
 
                 <HeaderButtons
-                    text='About Me' 
-                    selected={isSelected(pathname, 'about')}
-                    path='about'
+                    text='Skills' 
+                    selected={isSelected(pathname, 'skills')}
+                    path='skills'
+                />  
+
+                <HeaderButtons
+                    text='Contact' 
+                    selected={isSelected(pathname, 'contact')}
+                    path='contact'
                 />  
 
             </div>

@@ -1,8 +1,8 @@
 import React from 'react';
-import './Resume.css'
+import './Contact.css'
 
 
-export function Resume() {
+export function Contact() {
     
     return (
         <div className="book">
@@ -101,7 +101,7 @@ export function Resume() {
                 </div>
 
                 <br/>
-                <h2>My hard skills are the following:</h2>
+                <h1>My hard skills are the following:</h1>
                 <br/>
                 <div className='hard-skills'>
                     <ul className='hard'>
