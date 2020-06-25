@@ -1,0 +1,184 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    margin-top:100px;
+    /* border:1px solid black; */
+    max-width:100%;
+    padding:15px;
+    text-align:center;
+    display:flex;
+    justify-content:space-evenly;
+    box-sizing: border-box;
+}
+
+
+
+.first-div {
+    width: 30%;
+    padding-left: 30px;
+    line-height: 30px;
+    border:1px solid black;
+    padding:20px;
+}
+
+
+.soft-skills {
+    width: 45%;
+    padding: 15px 20px;
+    line-height: 30px;
+    border:1px solid transparent;
+    margin-left:20px;  
+    background-color:#379683;
+    border-radius:10px;
+    
+  }
+
+
+ .hard-skills {
+    width: 45%;
+    padding: 15px 20px;
+    line-height: 30px;
+    border:1px solid transparent;
+    margin-left:20px; 
+    background-color:#5CDB95;
+    border-radius:10px; 
+ } 
+
+ .percentage-one {
+    background-color: whitesmoke;
+    border:1px solid transparent;
+    border-right: 20px solid skyblue;
+  }
+  
+  .percentage-two {
+    background-color: whitesmoke;
+    border:1px solid transparent;
+    border-right: 15px solid skyblue;
+  }
+  
+  .percentage-three {
+    background-color: whitesmoke;
+    border:1px solid transparent;
+  }
+  
+  .percentage-four {
+    background-color: whitesmoke;
+    border:1px solid transparent;
+    border-right: 27px solid skyblue;
+  }
+  
+  .percentage-five {
+    background-color: whitesmoke;
+    border:1px solid transparent;
+    border-right: 35px solid skyblue;
+  }
+  
+  
+  ul li span {
+    float: right;
+    width: 150px;
+    height: 30px;
+    transition-property: transform, border-radius;
+    transition-duration: 2s;  
+    
+    
+  }
+  
+  ul li span:hover {
+    transform: rotateY(360deg);
+    border-radius:10%;
+  }
+
+  
+  .javascript-line {
+    display:inline-flex;
+    width:140px;
+    height:3px;
+    margin-left:5px;
+    margin-bottom: 5px;
+    background-color:#00693E;
+    animation: line 3s linear forwards ;
+    animation-delay: 10s;
+    animation-iteration-count: 2;
+  }
+  
+  
+  .react-line {
+    display:inline-flex;
+    height:3px;
+    width:100px;
+    margin-bottom: 5px;
+    background-color:#018749;
+    animation: line 3s linear forwards ;
+    animation-delay: 14s;
+    animation-iteration-count: 2;
+  }
+  
+  .css-line {
+    display:inline-flex;
+    width:180px;
+    height:3px;
+    margin-left:20px;
+    margin-bottom: 5px;
+    background-color:#03C03C;
+    animation: line 3s linear forwards ;
+    animation-delay: 17s;
+    animation-iteration-count: 2;
+  }
+  
+  .html-line {
+    display:inline-flex;
+    width:220px;
+    height:3px;
+    margin-left:32px;
+    margin-bottom: 5px;
+    background-color:greenyellow;
+    animation: line 3s linear forwards ;
+    animation-delay: 20s;
+    animation-iteration-count: 2;
+  }
+  
+  .oop-line {
+    display:inline-flex;
+    width:142px;
+    height:3px;
+    margin-bottom: 5px;
+    background-color:greenyellow;
+    animation: line 3s linear forwards ;
+    animation-delay: 23s;
+    animation-iteration-count: 2;
+  }
+  
+  .flexbox-line {
+    display:inline-flex;
+    width: 146px;
+    height:3px;
+    margin-bottom: 5px;
+    background-color:#1CAC78;
+    animation: line 3s linear forwards ;
+    animation-delay: 26s;
+    animation-iteration-count: 2;
+  }
+  
+  .github-line {
+    display:inline-flex;
+    width:240px;
+    height:3px;
+    margin-bottom: 5px;
+    background-color:#1CAC78;
+  }
+  
+  @keyframes line {
+    from {
+      left:30%;
+      width:0%;
+    }
+    to {
+      left:5%;
+      width:40%;
+    }
+  }

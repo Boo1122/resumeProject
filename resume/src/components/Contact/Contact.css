@@ -11,65 +11,33 @@ body, html {
     font-size:18px;
   }
 
-.book {
-  border: 3px outset black;
-  background-color: hsla(56, 88%, 70%, 0.95);
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-  height:auto; 
+
+
+.detailed {
+  margin-top:250px;
+  border: 1px solid transparent;
   width: 90%;
-  margin-top:100px;
-  margin-bottom: 30px;
- 
+  background-color:#379683;
+  /* overflow: hidden; */
+  /* flex-wrap: wrap; */
+  text-align:center;
+  border-radius:10px;
+  
 }
-
-.part1 {
-  border: 1px solid black;
-  width: 45%;
-  margin-top: 30px;
-  margin-bottom: 30px;
-  background-color:rgba(243, 182, 14, 0.76);
-  overflow: hidden;
-  flex-wrap: wrap;
- 
-}
-
-.part2 {
-  border: 1px solid black;
-  width: 45%;
-  /* display: flex; */
-  /* justify-content:space-around; */
-  /* flex-direction: column; */
-  /* flex-wrap:wrap; */
-  background-color:rgba(243, 182, 14, 0.76);
-  padding: 20px 20px;
-  line-height: 30px;
-
-}
-
 
 .contact {
-  width: 80%;
+  width: 700px;
+  text-align: center;
   padding: 30px 30px;
   line-height: 30px;
   margin: 0;
+  font-weight: bolder;
+  font-style: italic;
+  color:#5CDB95;
 }
 
-.first-article {
-  width: 80%;
-  padding-left: 30px;
-  line-height: 30px;
-  margin: 0;
-}
 
-.second-article {
-  width: 80%;
-  padding: 30px 30px;
-  line-height: 30px;
-  margin: 0;
-}
+
 
 .third-article {
   width: 80%;
@@ -92,50 +60,6 @@ body, html {
 }
 
 
-.percentage-one {
-  background-color: whitesmoke;
-  border:1px solid transparent;
-  border-right: 20px solid skyblue;
-}
-
-.percentage-two {
-  background-color: whitesmoke;
-  border:1px solid transparent;
-  border-right: 15px solid skyblue;
-}
-
-.percentage-three {
-  background-color: whitesmoke;
-  border:1px solid transparent;
-}
-
-.percentage-four {
-  background-color: whitesmoke;
-  border:1px solid transparent;
-  border-right: 27px solid skyblue;
-}
-
-.percentage-five {
-  background-color: whitesmoke;
-  border:1px solid transparent;
-  border-right: 35px solid skyblue;
-}
-
-
-ul li span {
-  float: right;
-  width: 150px;
-  height: 30px;
-  transition-property: transform, border-radius;
-  transition-duration: 2s;  
-  
-  
-}
-
-ul li span:hover {
-  transform: rotateY(360deg);
-  border-radius:10%;
-}
 
 .hard {
     list-style-type: none;
@@ -147,26 +71,6 @@ ul li span:hover {
 .hard-skills {
   overflow: hidden;
 }
-
-.languages {
-  list-style-type: none;
-  display: block;
-  margin-top: 20px;
-  line-height: 2.0;
-  flex-wrap:wrap; 
-}
- 
-.hobbies {
-  list-style-type: none;
-  display: block;
-  margin-top: 20px;
-  line-height: 2.5;
-} 
-
-.education {
-  margin-top: 15px;
-}
-
 
 .level {
   display: flex;
@@ -223,91 +127,3 @@ ul li span:hover {
 }
 
 
-.javascript-line {
-  display:inline-flex;
-  width:140px;
-  height:3px;
-  margin-left:5px;
-  margin-bottom: 5px;
-  background-color:blue;
-  animation: line 3s linear forwards ;
-  animation-delay: 10s;
-  animation-iteration-count: 2;
-}
-
-
-.react-line {
-  display:inline-flex;
-  height:3px;
-  width:100px;
-  margin-bottom: 5px;
-  background-color:blue;
-  animation: line 3s linear forwards ;
-  animation-delay: 24s;
-  animation-iteration-count: 2;
-}
-
-.css-line {
-  display:inline-flex;
-  width:180px;
-  height:3px;
-  margin-left:20px;
-  margin-bottom: 5px;
-  background-color:red;
-  animation: line 3s linear forwards ;
-  animation-delay: 38s;
-  animation-iteration-count: 2;
-}
-
-.html-line {
-  display:inline-flex;
-  width:220px;
-  height:3px;
-  margin-left:32px;
-  margin-bottom: 5px;
-  background-color:greenyellow;
-  animation: line 3s linear forwards ;
-  animation-delay: 42s;
-  animation-iteration-count: 2;
-}
-
-.oop-line {
-  display:inline-flex;
-  width:142px;
-  height:3px;
-  margin-bottom: 5px;
-  background-color:greenyellow;
-  animation: line 3s linear forwards ;
-  animation-delay: 46s;
-  animation-iteration-count: 2;
-}
-
-.flexbox-line {
-  display:inline-flex;
-  width: 146px;
-  height:3px;
-  margin-bottom: 5px;
-  background-color:whitesmoke;
-  animation: line 3s linear forwards ;
-  animation-delay: 50s;
-  animation-iteration-count: 2;
-}
-
-.github-line {
-  display:inline-flex;
-  width:240px;
-  height:3px;
-  margin-bottom: 5px;
-  background-color:whitesmoke;
-}
-
-@keyframes line {
-  from {
-    left:30%;
-    width:0%;
-  }
-  to {
-    left:5%;
-    width:40%;
-  }
-}

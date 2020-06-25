@@ -9,6 +9,7 @@ import { Contact } from "./components/Contact/Contact";
 import { Skills } from "./components/Skills/Skills";
 
 
+
 class App extends Component {
   render () {
   return (
