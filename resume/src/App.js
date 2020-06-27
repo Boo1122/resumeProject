@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Header } from "./components/Header/Header";
 import { Home } from "./components/Home/Home";
-import { MyWork } from "./components/MyWork/MyWorkPage";
+import { MyWorkPage } from "./components/MyWork/MyWorkPage";
 import { Contact } from "./components/Contact/Contact";
 import { Skills } from "./components/Skills/Skills";
 
@@ -21,7 +21,7 @@ class App extends Component {
        <Route path='/' exact component={Home} /> 
 
 
-       <Route path='/work' exact component={MyWork} />
+       <Route path='/work' exact component={MyWorkPage} />
 
       <Route path='/contact' exact component={Contact} />  
 

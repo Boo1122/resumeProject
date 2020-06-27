@@ -6,10 +6,12 @@ import {
     faInstagram,
  } from "@fortawesome/free-brands-svg-icons";
 import './SocialFollow.css'
+
 export function SocialFollow() {
     return (
         <div className='social'>
-            <a href="https://www.facebook.com">
+            <h4>Follow me here:</h4>
+            <a href="https://www.facebook.com/gafenco.bogdan/">
 
             <FontAwesomeIcon icon={faFacebook} size='3x'/>    
             </a>
@@ -17,7 +19,7 @@ export function SocialFollow() {
 
             <FontAwesomeIcon icon={faLinkedin} size='3x'/>    
             </a>
-            <a href="https://www.instagram.com">
+            <a href="https://www.instagram.com/gafencobogdan/">
 
             <FontAwesomeIcon icon={faInstagram} size='3x'/>    
             </a>

@@ -2,27 +2,31 @@ body, html {
   width: 100%;
   margin: 0;
   padding: 0;
-  min-height:100vh;
+  height:100%;
    
   }
 
   * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size:18px;
+    /* font-size:18px; */
   }
 
-
-
 .detailed {
-  margin-top:250px;
+  margin:80px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid transparent;
-  width: 90%;
+  width: 60%;
   background-color:#379683;
-  /* overflow: hidden; */
-  /* flex-wrap: wrap; */
   text-align:center;
   border-radius:10px;
-  
+  transition: transform 1s;
+}
+
+
+.detailed:hover {
+    transform: scale(1.4)
 }
 
 .contact {
@@ -34,96 +38,64 @@ body, html {
   font-weight: bolder;
   font-style: italic;
   color:#5CDB95;
-}
-
-
-
-
-.third-article {
-  width: 80%;
-  padding: 30px 30px;
-  line-height: 45px;
-}
-
-.h4 {
-  margin-top: 50px;
- 
 
 }
 
-.soft {
-  list-style-type: none;
-  display: block;
-  text-align:center;
-  margin-top: 10px;
-
-}
-
-
-
-.hard {
-    list-style-type: none;
-    display: block;
-    margin-top: 10px;
-
-  
-}
-.hard-skills {
-  overflow: hidden;
-}
-
-.level {
-  display: flex;
-  justify-content: space-evenly;
-  list-style-type: none;
+.resume {
+  width: 50%;
+  border: 1px solid transparent;
   text-align: center;
-  overflow: hidden;
-  flex-wrap: wrap;
-}
-
-.wrapper {
+  margin-top: 10px;
+  display: inline-flex;
+  justify-content: center;
   overflow:hidden;
+  background-color: #5CDB95;
+  border-radius:10px;
 }
 
-.bounce1 {
-  margin-left: 480px;
-  width:20px;
-  height:20px;
-  border-radius: 100%;
-  background-color: blueviolet;
-  padding: 5px;
-  -webkit-animation: jump .6s infinite;
+@media screen and (max-width: 1024px) {
 
+  .detailed {
+    margin:180px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    width: 70%;
+    background-color:#379683;
+    text-align:center;
+    border-radius:10px;
+    transition: transform 1s;
+    font-size: 24px;
+  }
+  
+  
+  .detailed:hover {
+      transform: scale(1.4)
+  }
+  
+  .contact {
+    width: 700px;
+    text-align: center;
+    padding: 30px 30px;
+    line-height: 30px;
+    margin: 0;
+    font-weight: bolder;
+    font-style: italic;
+    color:#5CDB95;
+  
+  }
+  
+  .resume {
+    width: 50%;
+    border: 1px solid transparent;
+    text-align: center;
+    margin-top: 10px;
+    display: inline-flex;
+    justify-content: center;
+    overflow:hidden;
+    background-color: #5CDB95;
+    border-radius:10px;
+    font-size:20px ;
+  }
 }
-
-
-.bounce2 {
-  margin-left: 360px;
-  width:20px;
-  height:20px;
-  border-radius: 100%;
-  background-color: red;
-  padding: 5px;
-  color: white;
-  -webkit-animation: jump .7s infinite ;
-}
-
-.bounce3 {
-  margin-left: 360px;
-  width:20px;
-  height:20px;
-  border-radius: 100%;
-  padding: 5px;
-  color: white;
-  background-color: red;
-  -webkit-animation: jump .5s infinite ;
-}
-
-
-@keyframes jump {
-  0% {transform: translateY(0px)}
-  50% {transform: translateY(-35px)}
-  100% {transform: translateY(0px)}
-}
-
-

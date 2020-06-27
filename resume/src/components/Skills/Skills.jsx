@@ -4,28 +4,13 @@ import './Skills.css'
 export const Skills = () => {
     return (
         <div className='container'>
-           {/* <div className='first-div'>
-                    <h4>Carrer Objectives:</h4>
-                    <br/>
-                    Beginner in the field of JavaScript/HTML5/CSS3, I am motivated and eager to follow a career in Web Development.  
-              
-
-                    <h4>Professional Trainings:</h4>
-                        <br/>
-                    <strong>The Informal School of IT</strong> 
-                        <br/>
-                    <strong> Web Development Module</strong> 
-                        <br/>
-                   <strong>08.11.2019 – 25.05.2020  </strong>  
-                </div> */}
-
-                <div className='soft-skills'>
+               <div className='soft-skills'>
                     <h4>My soft skills</h4>
                     <br/>
                     <ul className='soft'>
                     <li className='animate'>Analytical mindset <span className='percentage-one'>80%</span> </li>
                     <br/>
-                    <li className='animate'>Communication skilled <span className='percentage-two'>90%</span></li>
+                    <li className='animate'>Communication <span className='percentage-two'>90%</span></li>
                     <br/>
                     <li className='animate'>Attentive to details <span className='percentage-three'>100%</span></li>
                     <br/>

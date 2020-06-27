@@ -1,9 +1,12 @@
 import React from 'react';
+import './MyWork.css';
 
-export function MyWork() {
+export function MyWorkPage() {
         return (
-            <div>
-               <h2>This is my work</h2>
+            <div className='work'>
+                <p>One</p>
+                <p>Two</p>
+                <p>Three</p>
             </div>
         );
     }
