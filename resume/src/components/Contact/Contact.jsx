@@ -20,7 +20,7 @@ export function Contact() {
                     <p>Phone: +40 742.653.600 </p> 
                     
                     <div className='resume'>
-                    <a download='' href="/resume/GAFENCO SILVIU BOGDAN CV.pdf">Download my resume</a>
+                    <a download='' href="/resume/GAFENCO SILVIU BOGDAN CV.pdf">DOWNLOAD MY RESUME </a>
                     </div>
                 </blockquote>
             </section>
