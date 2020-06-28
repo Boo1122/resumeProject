@@ -17,7 +17,7 @@ export function MyWorkPage() {
                 <div className='projects'>
                     Resume
                     <p className='icon'><a href="https://github.com/Boo1122/resumeProject">Project on Github</a> </p>
-                    <div className='imdb'></div>
+                    <div className='resumes'></div>
                 </div>
             </div>
         );

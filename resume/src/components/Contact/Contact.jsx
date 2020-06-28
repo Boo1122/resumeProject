@@ -7,7 +7,7 @@ import { SocialFollow } from '../SocialFollow';
 export function Contact() {
     
     return (
-        <div>
+        <div id='container'>
         <div className='detailed'>
             <section>
                 <blockquote className='contact'>

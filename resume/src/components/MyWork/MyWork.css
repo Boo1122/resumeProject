@@ -61,6 +61,16 @@
     
 }
 
+.resumes {
+    border:1px solid transparent;
+    width:247px;
+    height:360px;
+    background-image:url('/resume.jpg');
+    background-repeat: no-repeat;
+    border-radius:10px;
+    
+}
+
 a {
     margin:5px auto;
 }

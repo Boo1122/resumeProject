@@ -1,17 +1,17 @@
 .social {
-    margin: 40px auto;
+    margin: 15px auto;
     display:flex;
     justify-content: space-around;
     border: 2px solid #5CDB95;
     padding: 20px 20px;
     width: 60%;
     border-radius: 10px;
-    transition: transform .8s;
+    transition: transform 1.5s;
     
 }
 
 .social:hover {
-    transform: scale(1.3)
+    transform: scale(1.4)
 }
 
 .social h4 {
@@ -27,7 +27,7 @@
         justify-content: space-around;
         border: 2px solid #5CDB95;
         padding: 20px 20px;
-        width: 60%;
+        width: 55%;
         border-radius: 10px;
         transition: transform .8s;
         font-size: 22px;
