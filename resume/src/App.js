@@ -7,11 +7,6 @@ import { Home } from "./components/Home/Home";
 import { MyWorkPage } from "./components/MyWork/MyWorkPage";
 import  {Contact}  from "./components/Contact/Contact";
 import { Skills } from "./components/Skills/Skills";
-import {
-  CSSTransition,
-  TransitionGroup,
-} from 'react-transition-group';
-
 
 
 class App extends Component {
