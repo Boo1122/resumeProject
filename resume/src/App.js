@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Header } from "./components/Header/Header";
 import { Home } from "./components/Home/Home";
 import { MyWorkPage } from "./components/MyWork/MyWorkPage";
-import { Contact } from "./components/Contact/Contact";
+import  Contact  from "./components/Contact/Contact";
 import { Skills } from "./components/Skills/Skills";
 
 

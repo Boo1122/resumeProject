@@ -16,7 +16,27 @@ html, body {
   
 }
 
-    
+@media only screen and (max-width:768px) {
+    .header {
+        flex-direction:column;
+        height:330px;
+        text-align:center;
+    }
+}
 
+@media only screen and (max-width:414px) {
+    .header {
+        flex-direction:column;
+        height:180px;
+        text-align:center;
+        flex-wrap:wrap;
+        font-size: 14px;
+        
+    }
+}
+
+
+
+    
 
 
