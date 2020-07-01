@@ -78,7 +78,7 @@ body, html {
     margin-bottom: 5px;
     background-color:#00693E;
     animation: line 3s linear forwards ;
-    animation-delay: 10s;
+    animation-delay: 1s;
     animation-iteration-count: 2;
   }
   
@@ -90,7 +90,7 @@ body, html {
     margin-bottom: 5px;
     background-color:#018749;
     animation: line 3s linear forwards ;
-    animation-delay: 14s;
+    animation-delay: 4s;
     animation-iteration-count: 2;
   }
   
@@ -102,7 +102,7 @@ body, html {
     margin-bottom: 5px;
     background-color:#03C03C;
     animation: line 3s linear forwards ;
-    animation-delay: 17s;
+    animation-delay: 7s;
     animation-iteration-count: 2;
   }
   
@@ -114,7 +114,7 @@ body, html {
     margin-bottom: 5px;
     background-color:greenyellow;
     animation: line 3s linear forwards ;
-    animation-delay: 20s;
+    animation-delay: 10s;
     animation-iteration-count: 2;
   }
   
@@ -125,7 +125,7 @@ body, html {
     margin-bottom: 5px;
     background-color:greenyellow;
     animation: line 3s linear forwards ;
-    animation-delay: 23s;
+    animation-delay: 13s;
     animation-iteration-count: 2;
   }
   
@@ -136,7 +136,7 @@ body, html {
     margin-bottom: 5px;
     background-color:#1CAC78;
     animation: line 3s linear forwards ;
-    animation-delay: 26s;
+    animation-delay: 16s;
     animation-iteration-count: 2;
   }
   
@@ -146,6 +146,9 @@ body, html {
     height:3px;
     margin-bottom: 5px;
     background-color:#1CAC78;
+    animation: line 3s linear forwards ;
+    animation-delay: 19s;
+    animation-iteration-count:1;
   }
 
   
@@ -257,7 +260,7 @@ body, html {
       margin-bottom: 5px;
       background-color:#00693E;
       animation: line 3s linear forwards ;
-      animation-delay: 10s;
+      animation-delay: 1s;
       animation-iteration-count: 2;
     }
     
@@ -269,7 +272,7 @@ body, html {
       margin-bottom: 5px;
       background-color:#018749;
       animation: line 3s linear forwards ;
-      animation-delay: 14s;
+      animation-delay: 4s;
       animation-iteration-count: 2;
     }
     
@@ -281,7 +284,7 @@ body, html {
       margin-bottom: 5px;
       background-color:#03C03C;
       animation: line 3s linear forwards ;
-      animation-delay: 17s;
+      animation-delay: 7s;
       animation-iteration-count: 2;
     }
     
@@ -293,7 +296,7 @@ body, html {
       margin-bottom: 5px;
       background-color:greenyellow;
       animation: line 3s linear forwards ;
-      animation-delay: 20s;
+      animation-delay: 10s;
       animation-iteration-count: 2;
     }
     
@@ -304,7 +307,7 @@ body, html {
       margin-bottom: 5px;
       background-color:greenyellow;
       animation: line 3s linear forwards ;
-      animation-delay: 23s;
+      animation-delay: 13s;
       animation-iteration-count: 2;
     }
     
@@ -315,7 +318,7 @@ body, html {
       margin-bottom: 5px;
       background-color:#1CAC78;
       animation: line 3s linear forwards ;
-      animation-delay: 26s;
+      animation-delay: 16s;
       animation-iteration-count: 2;
     }
     
@@ -325,6 +328,9 @@ body, html {
       height:3px;
       margin-bottom: 5px;
       background-color:#1CAC78;
+      animation: line 3s linear forwards;
+      animation-delay: 19s;
+      animation-iteration-count: 1;
     }
   
     @keyframes line {
@@ -422,7 +428,7 @@ body, html {
       margin-bottom: 5px;
       background-color:#00693E;
       animation: line 3s linear forwards ;
-      animation-delay: 10s;
+      animation-delay: 1s;
       animation-iteration-count: 2;
     }
     
@@ -434,7 +440,7 @@ body, html {
       margin-bottom: 5px;
       background-color:#018749;
       animation: line 3s linear forwards ;
-      animation-delay: 14s;
+      animation-delay: 4s;
       animation-iteration-count: 2;
     }
     
@@ -446,7 +452,7 @@ body, html {
       margin-bottom: 5px;
       background-color:#03C03C;
       animation: line 3s linear forwards ;
-      animation-delay: 17s;
+      animation-delay: 7s;
       animation-iteration-count: 2;
     }
     
@@ -458,7 +464,7 @@ body, html {
       margin-bottom: 5px;
       background-color:greenyellow;
       animation: line 3s linear forwards ;
-      animation-delay: 20s;
+      animation-delay: 10s;
       animation-iteration-count: 2;
     }
     
@@ -469,7 +475,7 @@ body, html {
       margin-bottom: 5px;
       background-color:greenyellow;
       animation: line 3s linear forwards ;
-      animation-delay: 23s;
+      animation-delay: 13s;
       animation-iteration-count: 2;
     }
     
@@ -480,7 +486,7 @@ body, html {
       margin-bottom: 5px;
       background-color:#1CAC78;
       animation: line 3s linear forwards ;
-      animation-delay: 26s;
+      animation-delay: 16s;
       animation-iteration-count: 2;
     }
     
@@ -490,6 +496,9 @@ body, html {
       height:3px;
       margin-bottom: 5px;
       background-color:#1CAC78;
+      animation: line 3s linear forwards ;
+      animation-delay: 19s;
+      animation-iteration-count: 1;
     }
   
     @keyframes line {
@@ -520,7 +529,6 @@ body, html {
     background-color:#5CDB95;
     border-radius:10px; 
     font-size: 12px;
-    /* flex-wrap:wrap; */
   } 
   
   .soft-skills {
@@ -530,7 +538,6 @@ body, html {
     border:1px solid transparent;
     background-color:#379683;
     border-radius:10px; 
-    /* flex-wrap:wrap; */
     font-size: 11px;
   }
 
@@ -586,7 +593,7 @@ body, html {
     margin-bottom: 5px;
     background-color:#00693E;
     animation: line 3s linear forwards ;
-    animation-delay: 2s;
+    animation-delay: 1s;
     animation-iteration-count: 2;
   }
   
@@ -598,7 +605,7 @@ body, html {
     margin-bottom: 5px;
     background-color:#018749;
     animation: line 3s linear forwards ;
-    animation-delay: 14s;
+    animation-delay: 4s;
     animation-iteration-count: 2;
   }
   
@@ -610,7 +617,7 @@ body, html {
     margin-bottom: 5px;
     background-color:#03C03C;
     animation: line 3s linear forwards ;
-    animation-delay: 17s;
+    animation-delay: 7s;
     animation-iteration-count: 2;
   }
   
@@ -622,7 +629,7 @@ body, html {
     margin-bottom: 5px;
     background-color:greenyellow;
     animation: line 3s linear forwards ;
-    animation-delay: 20s;
+    animation-delay: 10s;
     animation-iteration-count: 2;
   }
   
@@ -633,7 +640,7 @@ body, html {
     margin-bottom: 5px;
     background-color:greenyellow;
     animation: line 3s linear forwards ;
-    animation-delay: 23s;
+    animation-delay: 13s;
     animation-iteration-count: 2;
   }
   
@@ -644,7 +651,7 @@ body, html {
     margin-bottom: 5px;
     background-color:#1CAC78;
     animation: line 3s linear forwards ;
-    animation-delay: 26s;
+    animation-delay: 16s;
     animation-iteration-count: 2;
   }
   
@@ -654,6 +661,9 @@ body, html {
     height:3px;
     margin-bottom: 5px;
     background-color:#1CAC78;
+    animation: line 3s linear forwards ;
+    animation-delay: 19s;
+    animation-iteration-count: 1;
   }
 
   @keyframes line {

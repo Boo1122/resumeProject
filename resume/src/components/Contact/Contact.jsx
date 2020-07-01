@@ -1,12 +1,11 @@
 import React from 'react';
 import './Contact.css'
 import { SocialFollow } from '../SocialFollow';
-import {Map, InfoWindow, Marker, GoogleApiWrapper} from 'google-maps-react';
 import { Component } from 'react';
 
 
 
- class Contact extends Component {
+ export class Contact extends Component {
     render() {
         return (
             <div id='container'>
@@ -30,20 +29,6 @@ import { Component } from 'react';
         <div>
             <SocialFollow />
         </div>
-       
-
-        
-        <Map google={this.props.google} zoom={8}>
- 
-            <Marker onClick={this.onMarkerClick}
-         name={'Current location'} />
-
-            <InfoWindow onClose={this.onInfoWindowClose}>
-                <div>
-                    kakakakk
-                </div>
-            </InfoWindow>
-        </Map>
          </div>
         
         
@@ -51,7 +36,5 @@ import { Component } from 'react';
     }
 }
 
-export default GoogleApiWrapper({
-    apiKey: ("AIzaSyAEI6AIaZx5Dl2Zo-eWmqEIO1K3HwyB94Q")
-  })(Contact)
+
 

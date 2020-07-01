@@ -5,8 +5,12 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Header } from "./components/Header/Header";
 import { Home } from "./components/Home/Home";
 import { MyWorkPage } from "./components/MyWork/MyWorkPage";
-import  Contact  from "./components/Contact/Contact";
+import  {Contact}  from "./components/Contact/Contact";
 import { Skills } from "./components/Skills/Skills";
+import {
+  CSSTransition,
+  TransitionGroup,
+} from 'react-transition-group';
 
 
 
@@ -15,17 +19,16 @@ class App extends Component {
   return (
     <div className="App">
      <Router>
-    <Header  /> 
+        <Header  /> 
     
     <Switch> 
-       <Route path='/' exact component={Home} /> 
+      <Route path='/' exact component={Home} /> 
 
-
-       <Route path='/work' exact component={MyWorkPage} />
+      <Route path='/work' exact component={MyWorkPage} />
 
       <Route path='/contact' exact component={Contact} />  
 
-       <Route path='/skills' exact component={Skills} /> 
+      <Route path='/skills' exact component={Skills} /> 
     </Switch>
 
       </Router> 

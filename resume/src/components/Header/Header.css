@@ -13,6 +13,7 @@ html, body {
     width: auto;
     height:80px;
     background-color: #5CDB95;
+    font-weight: bold;
   
 }
 
@@ -27,7 +28,7 @@ html, body {
 @media only screen and (max-width:414px) {
     .header {
         flex-direction:column;
-        height:180px;
+        height:220px;
         text-align:center;
         flex-wrap:wrap;
         font-size: 14px;
