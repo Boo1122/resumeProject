@@ -1,43 +1,38 @@
-html, body {
-    width:100%;
-    margin:0;
-    padding:0;
-    height:100%;
+html,
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
 
 .header {
     display: flex;
-    align-items:center;
+    align-items: center;
     justify-content: space-evenly;
     width: auto;
-    height:80px;
+    height: 80px;
     background-color: #5CDB95;
     font-weight: bold;
-  
+
 }
 
 @media only screen and (max-width:768px) {
     .header {
-        flex-direction:column;
-        height:330px;
-        text-align:center;
+        flex-direction: column;
+        height: 330px;
+        text-align: center;
     }
 }
 
 @media only screen and (max-width:414px) {
     .header {
-        flex-direction:column;
-        height:220px;
-        text-align:center;
-        flex-wrap:wrap;
+        flex-direction: column;
+        height: 220px;
+        text-align: center;
+        flex-wrap: wrap;
         font-size: 14px;
-        
+
     }
 }
-
-
-
-    
-
-

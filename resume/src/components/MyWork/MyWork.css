@@ -1,30 +1,26 @@
-.work h2 {
-    color:black;
-}
-
 .work {
-    margin:30px auto;
+    margin: 30px auto;
     display: flex;
     justify-content: space-evenly;
-    border:1px solid transparent;
-    width:95%;
-    height:550px;
+    border: 1px solid transparent;
+    width: 95%;
+    height: 550px;
 }
-  
+
 
 .projects {
-    border:1px solid transparent;
-    margin:20px auto;
+    border: 1px solid transparent;
+    margin: 20px auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; 
-    padding-top:20px; 
-    width:400px;
-    height:490px;
+    justify-content: center;
+    padding-top: 20px;
+    width: 400px;
+    height: 490px;
     background-color: #5CDB95;
-    border-radius:10px;
-    color:#379683;
-} 
+    border-radius: 10px;
+    color: #379683;
+}
 
 .icon {
     border: 1px solid #379683;
@@ -33,45 +29,45 @@
     display: flex;
     justify-content: center;
     margin-left: 15px;
-    border-radius:10px;
+    border-radius: 10px;
     background-image: url('/git.jpg');
     background-repeat: no-repeat;
-      
+
 }
 
 .imdb {
-    border:1px solid black;
-    width:330px;
-    height:360px;
-    background-image:url('/imdb.jpg');
+    border: 1px solid black;
+    width: 330px;
+    height: 360px;
+    background-image: url('/imdb.jpg');
     background-repeat: no-repeat;
-    border-radius:10px;
-    
+    border-radius: 10px;
+
 }
 
 
 .movie {
-    border:1px solid transparent;
-    width:322px;
-    height:360px;
-    background-image:url('/movieapp.jpg');
+    border: 1px solid transparent;
+    width: 322px;
+    height: 360px;
+    background-image: url('/movieapp.jpg');
     background-repeat: no-repeat;
-    border-radius:10px;
-    
+    border-radius: 10px;
+
 }
 
 .resumes {
-    border:1px solid transparent;
-    width:247px;
-    height:360px;
-    background-image:url('/resume.jpg');
+    border: 1px solid transparent;
+    width: 247px;
+    height: 360px;
+    background-image: url('/resume.jpg');
     background-repeat: no-repeat;
-    border-radius:10px;
-    
+    border-radius: 10px;
+
 }
 
 a {
-    margin:5px auto;
+    margin: 5px auto;
 }
 
 @media screen and (max-width: 1024px) and (max-height:1366px) {

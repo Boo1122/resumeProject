@@ -1,35 +1,35 @@
 body {
- 
+
     background-color: #8EE4AF;
-    }
+}
 
 .about {
-    margin:50px auto;
-    display:flex;
-    justify-content:center;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
     border: 1px solid transparent;
     text-align: center;
     height: 100%;
     width: 60%;
-    border-radius:10px;  
+    border-radius: 10px;
     flex-wrap: wrap;
     background-color: #379683;
     font-weight: 500;
-    padding:20px 20px;
-    
+    padding: 20px 20px;
+
 }
 
 .details {
     margin-top: 30px;
     display: flex;
-    justify-content:center;
-    font-size:30px;
+    justify-content: center;
+    font-size: 30px;
     font-weight: 700;
-    
+
 }
 
 .about p {
-    margin-top:60px;
+    margin-top: 60px;
 }
 
 
@@ -42,17 +42,22 @@ body {
 }
 
 
-@keyframes head{
-    0% {top: -150px}
-    100% {top: 20px}
+@keyframes head {
+    0% {
+        top: -150px
+    }
+
+    100% {
+        top: 20px
+    }
 }
 
 .section {
-    position:relative;
-    width:100%;
+    position: relative;
+    width: 100%;
     display: flex;
-    overflow:hidden;
-    margin-top:30px;
+    overflow: hidden;
+    margin-top: 30px;
 }
 
 .section div {
@@ -74,17 +79,22 @@ body {
 .section div h2 {
     white-space: nowrap;
     line-height: 8vh;
-    animation:animate 8s linear infinite;
+    animation: animate 8s linear infinite;
 
 }
 
 h2 {
-    color:#8EE4AF;
+    color: #8EE4AF;
 }
 
 @keyframes animate {
-    0% {transform:translateX(0)}
-    100% {transform:translateX(-100%)}
+    0% {
+        transform: translateX(0)
+    }
+
+    100% {
+        transform: translateX(-100%)
+    }
 }
 
 .content {
@@ -92,71 +102,76 @@ h2 {
     animation: content;
     animation-duration: 5s;
     animation-fill-mode: forwards;
-    color:#5CDB95;
-    
+    color: #5CDB95;
+
 }
 
 h4 {
-    color:#8EE4AF;
+    color: #8EE4AF;
 }
 
 @keyframes content {
-    0% {left: -1000px}
-    100% {left: 0}
+    0% {
+        left: -1000px
+    }
+
+    100% {
+        left: 0
+    }
 }
 
-@media screen and (max-width:1024px)  {
+@media screen and (max-width:1024px) {
     .about {
-        margin:200px auto;
-        display:flex;
-        justify-content:center;
+        margin: 200px auto;
+        display: flex;
+        justify-content: center;
         border: 1px solid transparent;
         text-align: center;
         height: 100%;
         width: 80%;
-        border-radius:10px;  
+        border-radius: 10px;
         flex-wrap: wrap;
         background-color: #379683;
         font-weight: 500;
         font-size: 24px;
-        padding:20px 20px;
-        
+        padding: 20px 20px;
+
     }
 }
 
 @media screen and (max-width:768px) and (max-height: 1024px) {
     .about {
-        margin:150px auto;
-        display:flex;
-        justify-content:center;
+        margin: 150px auto;
+        display: flex;
+        justify-content: center;
         border: 1px solid transparent;
         text-align: center;
         height: 100%;
         width: 85%;
-        border-radius:10px;  
+        border-radius: 10px;
         flex-wrap: wrap;
         background-color: #379683;
         font-weight: 500;
-        font-size:20px;
+        font-size: 20px;
         padding: 10px 10px;
-        
+
     }
 }
 
-@media screen and (max-width:414px)  {
+@media screen and (max-width:414px) {
     .section div {
         position: relative;
         width: 80%;
         overflow: hidden;
         text-align: center;
         margin-left: 50px;
-        
+
     }
+
     .section div h2 {
         white-space: nowrap;
         line-height: 8vh;
-        animation:animate 9s linear infinite;
-    
+        animation: animate 9s linear infinite;
+
     }
 }
-
